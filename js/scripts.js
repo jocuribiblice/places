@@ -1,11 +1,11 @@
 $(document).ready(function() {
   window.possible_words = [
-    ["Loc1", "Descriere1"],
-    ["Loc2", "Descriere2"],
-    ["Loc3", "Descriere3"],
-    ["Loc4", "Descriere4"],
-    ["Loc5", "Descriere5"],
-    ["Loc6", "Descriere6"],
+    ["Eden", "Grădina în care au fost așezați Adam și Eva"],
+    ["Ararat", "Munții unde s-a oprit arca lui Noe"],
+    ["Ninive", "Zidită de Nimrod"],
+    ["Babel", "Aici a încurcat Domnul limba întregului pământ"],
+    ["Ur, Caldeea", "Haran s-a născut și a murit aici"],
+    ["Sodoma", "Îngerii Domnului l-au găsit pe Lot stând la poarta acestei cetăți"],
   ];
   window.game_is_finished = false;
   window.hint = "";
@@ -109,7 +109,7 @@ $(document).ready(function() {
       }
     });
 
-    $("p#status").text("Descriere: " + window.hint);
+    $("p#status").text(window.hint);
   }
 
   start_game();
