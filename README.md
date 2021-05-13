@@ -1,0 +1,2 @@
+# places
+Locuri din Biblie
