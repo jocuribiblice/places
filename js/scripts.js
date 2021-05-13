@@ -6,6 +6,16 @@ $(document).ready(function() {
     ["Babel", "Aici a încurcat Domnul limba întregului pământ"],
     ["Ur, Caldeea", "Haran s-a născut și a murit aici"],
     ["Sodoma", "Îngerii Domnului l-au găsit pe Lot stând la poarta acestei cetăți"],
+    ["Țoar", "Lot a fugit din Sodoma ca să-și scape viața aici"],
+    ["Gherar", "Avraam a trecut pe aici, iar împărat era Abimelec"],
+    ["Beer-Șeba", "Înseamnă Fântâna jurământului; aici Avraam și Abimelec și-au jurat credință"],
+    ["Iehova-Iire", "Înseamnă Domnul va purta de grijă; aici a fost adus Isaac pentru jertfire"],
+    ["Chiriat-Arba", "Sara a murit la Hebron, care se mai numește și"],
+    ["Macpela", "peștera în care a fost îngropată Sara, soția lui Avraam"],
+    ["Padan-Aram", "Laban locuia aici când Iacov a fugit în Mesopotamia"],
+    ["Mahanaim", "Înseamnă „Tabără îndoită” - aici l-au întâlnit îngerii lui Dumnezeu pe Iacov"],
+    ["Peniel", "Înseamnă „Fața lui Dumnezeu” - aici Iacov a avut o luptă de dus"],
+    ["Sucot", "Înseamnă „Colibe” - Iacov a trecut pe aici"],
   ];
   window.game_is_finished = false;
   window.hint = "";
