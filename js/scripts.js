@@ -122,5 +122,10 @@ $(document).ready(function() {
     $("p#status").text(window.hint);
   }
 
+  $("a#app-info-details").on("click", function(evt) {
+    evt.preventDefault();
+    $("div.app-info-details").toggle();
+  });
+
   start_game();
 });
