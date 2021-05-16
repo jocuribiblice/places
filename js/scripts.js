@@ -85,7 +85,6 @@ $(document).ready(function() {
 
 
   function win() {
-    $("p#status").text("Felicitări!");
     $("p#status").css({"background": "#2ecc71"});
     game_is_finished = true;
   }
